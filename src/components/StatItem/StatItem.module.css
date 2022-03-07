@@ -1,0 +1,38 @@
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #bdbdbd;
+  background-color: #e0e0e0;
+}
+
+.label {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+.percentage {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.docx {
+  background-color: #4dc5f5;
+}
+
+.pdf {
+  background-color: #a23cf5;
+}
+
+.mp3 {
+  background-color: #e54c63;
+}
+
+.psd {
+  background-color: #20b8c5;
+}

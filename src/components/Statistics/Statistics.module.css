@@ -1,0 +1,10 @@
+.statistics {
+  font-family: Roboto;
+  text-align: center;
+  font-style: normal;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 1px solid #bdbdbd;
+  /* outline: 1px solid red; */
+  width: 500px;
+}

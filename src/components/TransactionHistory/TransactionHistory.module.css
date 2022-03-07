@@ -1,0 +1,30 @@
+.transaction_history {
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  margin: 0 auto;
+  border: 1px solid #bdbdbd;
+  width: 500px;
+  background-color: #e0e0e0;
+}
+
+.transaction_history thead {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  background-color: #7d7673;
+}
+.transaction_history tbody {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #828282;
+  background-color: #ffff;
+}
+.transaction_history tbody {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #828282;
+  background-color: #ffff;
+}
