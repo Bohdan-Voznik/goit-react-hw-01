@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import css from './Profile.module.css';
-import { Description } from 'components/Description/Description';
-import { Stats } from 'components/Stats/Stats';
+import { Description } from 'components/Profile/Description/Description';
+import { Stats } from 'components/Profile/Stats/Stats';
 
 export const Profile = ({ avatar, username, tag, location, stats }) => {
   return (

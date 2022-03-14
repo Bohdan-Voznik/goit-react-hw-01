@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types';
 import css from './Statistics.module.css';
-import { StatTitle } from 'components/StatTitle/StatTitle';
-import { StatList } from 'components/StatList/StatList';
+import { StatTitle } from 'components/Statistics/StatTitle/StatTitle';
+import { StatList } from 'components/Statistics/StatList/StatList';
 
 export const Statistics = ({ title, stats }) => {
   return (
     <section className={css.statistics}>
-      <StatTitle title={title} />
+      {title && <StatTitle title={title} />}
       <StatList stats={stats} />
     </section>
   );

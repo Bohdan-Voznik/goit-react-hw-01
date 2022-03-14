@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { TransactionItem } from 'components/TransactionItem/TransactionItem';
+import { TransactionItem } from 'components/TransactionHistory/TransactionItem/TransactionItem';
 
 import css from './TransactionHistory.module.css';
 
